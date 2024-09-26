@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-1-HTML-CSS</title>
+    <style>
+        .pic{
+            width: 140px;
+            height: 150px;
+            cursor: pointer;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .name{
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin: 0px;
+            font-weight: bold;
+            
+        }
+        .fr{
+            padding: 5px;
+            margin: 0px;
+            color: rgb(143, 140, 140);
+            font-size: 14px;
+        }
+        .btn{
+            margin: 5px;
+            background-color: rgb(26, 121, 238);
+            color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 5px;
+            width: 90px;
+            cursor: pointer;
+        }
+        .div_house{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .div1, .div2, .div3, .div4{
+            border-style: solid;
+            width: 140px;
+            height: 260px;
+            border-color: rgb(231, 225, 225);
+            border-radius: 7px;
+            border-width: 2px;
+            box-shadow: 5px 5px 5px rgb(218, 216, 216, 0.5);
+            display: inline-block;
+            margin-right: 10px; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_house">
+        <div class="div1">
+            <img class="pic" src="profile discord.png" alt="">
+            <p class="name">Oliver</p>
+            <p class="fr">2 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+
+        <div class="div2">
+            <img class="pic" src="./pic1.jpg" alt="">
+            <p class="name">Maki</p>
+            <p class="fr">21 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+
+        <div class="div3">
+            <img class="pic" src="./pic2.jpg" alt="">
+            <p class="name">Nom</p>
+            <p class="fr">78 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+        <div class="div4">
+            <img class="pic" src="./pic3.jpg" alt="">
+            <p class="name">Lex</p>
+            <p class="fr">10 mutual friends</p>
+            <button class="btn">Add Friend</button>
+        </div>
+    </div>
+    
+</body>
+</html>
